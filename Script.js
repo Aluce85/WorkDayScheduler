@@ -21,3 +21,6 @@ $("#hour14").text(localStorage.getItem("14"));
 $("#hour15").text(localStorage.getItem("15"));
 $("#hour16").text(localStorage.getItem("16"));
 $("#hour17").text(localStorage.getItem("17"));
+
+let currentHour = moment().hour();
+console.log(currentHour);
